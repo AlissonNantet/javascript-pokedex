@@ -1,0 +1,141 @@
+.botoes{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+button{
+  background-color: #6c79db;
+  color: #fff;
+  border-style: none;
+  border-radius: 50%;
+  font-size: 1.5rem;
+  text-align: center;
+  margin: 0;
+  padding: 0.25rem 0.5rem;
+}
+
+.anterior{
+  margin: 0;
+}
+.proximo{
+  margin: 0 0 0 auto;
+}
+
+/* ------------------- */
+
+section{
+  background-color: #77c850;
+}
+section .header{
+  background-color: #77c850;
+  filter: brightness(1.1);
+}
+
+.header{
+  padding: 1rem;
+}
+
+.top{
+  padding: 0 1rem 0 1rem;
+}
+
+.top-info{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.pagina{
+  padding: 0;
+  margin: 0;
+}
+
+.pokeInfos{
+  background-color: lightgray;
+  padding: 1rem;
+  margin: 0;
+  border-radius: 2rem 2rem 0 0;
+}
+
+.tipos{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.tipo{
+  background-color: #77c850;
+  filter: brightness(1.1);
+  border-radius: 1rem;
+  padding: 0 1rem;
+  margin: .5rem .5rem;
+}
+
+.carac{
+
+}
+
+h1, h2, h4{
+  padding: 0;
+  margin: 0;
+}
+
+h2{
+  text-align: center;
+}
+
+h4{
+  padding: 0;
+  margin: 0;
+}
+
+h3{
+  padding: 0;
+  margin: 1rem 0 0 0;
+}
+
+a{
+  text-decoration: none;
+  color: #000;
+}
+
+ol{
+  padding: 0;
+  margin: 0;
+  list-style: none
+}
+
+
+
+img{
+  width: 80%;
+}
+.img{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+/*
+
+@media screen and (min-width: 380px) {
+  .pokemons{
+    grid-template-columns: 1fr 1fr ;
+  }
+  }
+
+@media screen and (min-width: 576px) {
+  .pokemons{
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  }
+
+@media screen and (min-width: 992px) {
+  .pokemons{
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  }
+
+   */

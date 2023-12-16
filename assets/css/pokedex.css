@@ -7,6 +7,8 @@
   margin: 0;
 }
 
+/* ---------------- TIPOS ----------------------- */
+
 .normal {
     background-color: #a6a877;
 }
@@ -79,6 +81,8 @@
     background-color: #f9aec7;
 }
 
+/* ---------------- TIPOS ----------------------- */
+
 .pokemon{
 display: flex;
 flex-direction: column;
@@ -125,7 +129,6 @@ text-align: center;
 }
 
 .pokemon .detail img{
-
 max-width: 100%;
 height: 70px;
 }
@@ -133,7 +136,7 @@ height: 70px;
 .pagination{
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: left;
   align-items: center;
   width: 100%;
   padding: 1rem;
@@ -143,12 +146,15 @@ height: 70px;
   background-color: #6c79db;
   color: #fff;
   border: none;
-  border-radius: 1rem;
+  border-radius: 50%;
   padding: .25rem .5rem;
-  margin: .25rem 0;
-  font-size: .625rem;
+  margin: 0;
+  font-size: 1rem;
 }
 
+a{
+    text-decoration: none;
+}
 
 @media screen and (min-width: 380px) {
   .pokemons{

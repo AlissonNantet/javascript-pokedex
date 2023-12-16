@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="icon" href="../../img/favico.png">
+
+    <!-- Normalize CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Fonte ROBOTO -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap" rel="stylesheet">
+
+    <!-- Nosso CSS -->
+    <link rel="stylesheet" href="../css/global.css">
+    <link rel="stylesheet" href="../css/page.css">
+</head>
+<body>
+  <section>
+    <header class="header">
+      <a href="../../index.html">
+        <h1>Pokedex</h1>
+      </a>
+      <div class="botoes">
+        <a href="" class="anterior">
+          <button type="button">
+            ⬅
+          </button>
+        </a>
+
+        <a href="" class="proximo">
+          <button type="button">
+            ➡
+          </button>
+        </a>
+      </div>
+
+    </header>
+
+    <ol class="top">
+      <li>
+        <ol class="top-info">
+          <span class="numero">#numero</span>
+          <span class="geracao">gen</span>
+        </ol>
+        <div class="img">
+          <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1.png"alt="foto pokemon">
+        </div>
+      </li>
+    </ol>
+
+
+    <ol id="pokemonInfos" class="pagina">
+
+        <li class="pokeInfos">
+          <div class="info">
+              <h2>Bulbasaur</h2>
+            <ol class="tipos">
+              <li class="tipo">tipo1</li>
+              <li class="tipo">tipo2</li>
+            </ol>
+            <ol class="carac">
+              <li>
+                <h4>Abilidade: </h4>
+              </li>
+              <li>
+                <h4>Peso: </h4>
+              </li>
+              <li>
+                <h4>Altura: </h4>
+              </li>
+            </ol>
+          </div>
+
+          <ol class="stats">
+            <h3>Base Status</h3>
+            <li>HP: </li>
+            <li>ATK: </li>
+            <li>DEF: </li>
+            <li>SP. ATK: </li>
+            <li>SP. DEF: </li>
+            <li>SPD: </li>
+          </ol>
+        </li>
+
+    </ol>
+  </section>
+</body>
+</html>
