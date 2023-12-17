@@ -19,73 +19,69 @@
     <link rel="stylesheet" href="../css/page.css">
 </head>
 <body>
-  <section>
-    <header class="header">
-      <a href="../../index.html">
-        <h1>Pokedex</h1>
-      </a>
-      <div class="botoes">
-        <a href="" class="anterior">
-          <button type="button">
-            ⬅
-          </button>
-        </a>
+  <section class="content">
+    <a href="../../index.html">
+      <button type="button">
+        ⬅
+      </button>
+    </a>
 
-        <a href="" class="proximo">
-          <button type="button">
-            ➡
-          </button>
-        </a>
-      </div>
-
-    </header>
-
-    <ol class="top">
-      <li>
-        <ol class="top-info">
-          <span class="numero">#numero</span>
-          <span class="geracao">gen</span>
-        </ol>
-        <div class="img">
-          <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1.png"alt="foto pokemon">
-        </div>
+    <ol>
+      <li class="top-info">
+          <span>#numero</span>
+      </li>
+      <li class="img">
+            <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1.png" alt="foto pokemon">
       </li>
     </ol>
 
-
     <ol id="pokemonInfos" class="pagina">
-
-        <li class="pokeInfos">
-          <div class="info">
-              <h2>Bulbasaur</h2>
+        <li>
+              <h2>bulbasaur</h2>
             <ol class="tipos">
               <li class="tipo">tipo1</li>
               <li class="tipo">tipo2</li>
             </ol>
-            <ol class="carac">
-              <li>
-                <h4>Abilidade: </h4>
-              </li>
-              <li>
-                <h4>Peso: </h4>
-              </li>
-              <li>
-                <h4>Altura: </h4>
-              </li>
-            </ol>
-          </div>
 
-          <ol class="stats">
-            <h3>Base Status</h3>
-            <li>HP: </li>
-            <li>ATK: </li>
-            <li>DEF: </li>
-            <li>SP. ATK: </li>
-            <li>SP. DEF: </li>
-            <li>SPD: </li>
-          </ol>
+            <p>Geração: </p>
+            <p>Abilidade: </p>
+            <p>Peso: </p>
+            <p>Altura: </p>
         </li>
 
+        <li class="stats">
+            <h3>base Status</h3>
+            <p>HP: </p>
+            <p>ATK: </p>
+            <p>dEF: </p>
+            <p>SP. ATK: </p>
+            <p>SP. DEF: </p>
+            <p>SPD: </p>
+        </li>
+
+        <li class="evolution">
+          <h4>EVOLUÇÕES</h4>
+          <ol>
+            <li class="forms">
+
+            <span class="evo"><img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1.png" alt="">
+              <p>base</p>
+            </span>
+            <p class="seta">➡</p>
+
+            <span class="evo"><img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1.png" alt="">
+              <p>evo1</p>
+            </span>
+            <p class="seta">➡</p>
+
+            <span class="evo"><img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1.png" alt="">
+              <p>evo2</p>
+            </span>
+
+            </li>
+          </ol>
+
+        </li>
     </ol>
   </section>
 </body>
