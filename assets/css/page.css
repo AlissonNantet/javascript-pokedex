@@ -1,6 +1,6 @@
 
 button{
-  background-color: #77c850;
+  background-color: #f7cf2e;
   color: #fff;
   border-style: none;
   font-size: 2rem;
@@ -13,7 +13,7 @@ button{
 }
 
 .content{
-  background-image: linear-gradient(315deg,#fff, #77c850);
+  background-image: linear-gradient(315deg,#fff, #f7cf2e);
   padding: 0;
 }
 
@@ -30,7 +30,7 @@ button{
 
 .pagina{
   width: 100%;
-  height: auto;
+  height: 60%;
   display: flex;
   flex-direction: column;
   background-color: #fff;
@@ -64,9 +64,12 @@ button{
 }
 
 .evolution{
+
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #000;
 }
 
 .forms{
@@ -78,7 +81,8 @@ button{
 }
 
 .evo{
-  width: 90%;
+  max-width: 90%;
+  height: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -86,7 +90,6 @@ button{
   padding: 0;
   margin: 0;
 }
-
 
 .seta, li h4{
   font-size: 1.5rem;
@@ -117,7 +120,7 @@ ol{
 }
 
 img{
-  width: 90%;
+  max-width: 70%;
   height: auto;
 }
 
@@ -127,25 +130,3 @@ img{
   flex-direction: row;
   justify-content: center;
 }
-
-
-
-
-@media screen and (min-width: 380px) {
-  .pokemons{
-    grid-template-columns: 1fr 1fr ;
-  }
-  }
-
-@media screen and (min-width: 576px) {
-  .pokemons{
-    grid-template-columns: 1fr 1fr 1fr;
-  }
-  }
-
-@media screen and (min-width: 992px) {
-  .pokemons{
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-  }
-  }
-
