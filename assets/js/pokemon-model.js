@@ -4,11 +4,13 @@ class Pokemon {
   // --- INFOS ---
   number;
   name;
+  gen;
   type;
   types = [];
-  gen;
   ability;
-  abilitys = [];
+  abilities = [];
+  hidden;
+
   weight;
   height;
   sprite;
@@ -19,8 +21,14 @@ class Pokemon {
   spAttack;
   spDefense;
   speed;
-  // --- Evolution ---
-  evolution = [];
-  evolutionName = [];
+  // --- Moves ---
+  moveName;
+  movesNames = [];
+  moveLevel;
+  movesLevels = [];
+  moveMethod
+  movesMethods = [];
+
+
 }
 

@@ -69,3 +69,193 @@
 .fairy {
   background-color: #f9aec7;
 }
+
+/* ------------------------------------------------------------------------------------ */
+
+.normalDG  {
+  /* DG = DEGRADE */
+  background-image: linear-gradient(315deg,#fff, #a6a877);
+}
+
+.grassDG  {
+  /* DG = DEGRADE */
+  background-image: linear-gradient(315deg,#fff,#77c850 );
+}
+
+.fireDG  {
+  /* DG = DEGRADE */
+  background-image: linear-gradient(315deg,#fff,#ee7f30 );
+}
+
+.waterDG  {
+  /* DG = DEGRADE */
+  background-image: linear-gradient(315deg,#fff,#678fee );
+}
+
+.electricDG  {
+  /* DG = DEGRADE */
+  background-image: linear-gradient(315deg,#fff,#f7cf2e );
+}
+
+.iceDG  {
+  /* DG = DEGRADE */
+  background-image: linear-gradient(315deg,#fff,#98d5d7 );
+}
+
+.groundDG  {
+  /* DG = DEGRADE */
+  background-image: linear-gradient(315deg,#fff,#dfbf69 );
+}
+
+.flyingDG  {
+  /* DG = DEGRADE */
+  background-image: linear-gradient(315deg,#fff,#a98ff0 );
+}
+
+.poisonDG  {
+  /* DG = DEGRADE */
+  background-image: linear-gradient(315deg,#fff,#a040a0 );
+}
+
+.fightingDG  {
+  /* DG = DEGRADE */
+  background-image: linear-gradient(315deg,#fff,#bf3029 );
+}
+
+.psychicDG  {
+  /* DG = DEGRADE */
+  background-image: linear-gradient(315deg,#fff,#f65687 );
+}
+
+.darkDG  {
+  /* DG = DEGRADE */
+  background-image: linear-gradient(315deg,#fff,#725847 );
+}
+
+.rockDG  {
+  /* DG = DEGRADE */
+  background-image: linear-gradient(315deg,#fff,#b8a137 );
+}
+
+.bugDG  {
+  /* DG = DEGRADE */
+  background-image: linear-gradient(315deg,#fff,#a8b720 );
+}
+
+.ghostDG  {
+  /* DG = DEGRADE */
+  background-image: linear-gradient(315deg,#fff,#6e5896 );
+}
+
+.steelDG  {
+  /* DG = DEGRADE */
+  background-image: linear-gradient(315deg,#fff,#b9b7cf );
+}
+
+.dragonDG  {
+  /* DG = DEGRADE */
+  background-image: linear-gradient(315deg,#fff,#6f38f6 );
+}
+
+.fairyDG  {
+  /* DG = DEGRADE */
+  background-image: linear-gradient(315deg,#fff,#f9aec7 );
+}
+
+/* FONT COLOR TYPE */
+
+.normalFC {
+  /* FC = FONT COLOR */
+  color: #a6a877;
+}
+
+.grassFC {
+  /* FC = FONT COLOR */
+  color: #77c850;
+}
+
+.fireFC {
+  /* FC = FONT COLOR */
+  color: #ee7f30;
+}
+
+.waterFC {
+  /* FC = FONT COLOR */
+  color: #678fee;
+}
+
+.electricFC {
+  /* FC = FONT COLOR */
+  color: #f7cf2e;
+}
+
+.iceFC {
+  /* FC = FONT COLOR */
+  color: #98d5d7;
+}
+
+.groundFC {
+  /* FC = FONT COLOR */
+  color: #dfbf69;
+}
+
+.flyingFC {
+  /* FC = FONT COLOR */
+  color: #a98ff0;
+}
+
+.poisonFC {
+  /* FC = FONT COLOR */
+  color: #a040a0;
+}
+
+.fightingFC {
+  /* FC = FONT COLOR */
+  color: #bf3029;
+}
+
+.psychicFC {
+  /* FC = FONT COLOR */
+  color: #f65687;
+}
+
+.darkFC {
+  /* FC = FONT COLOR */
+  color: #725847;
+}
+
+.rockFC {
+  /* FC = FONT COLOR */
+  color: #b8a137;
+}
+
+.bugFC {
+  /* FC = FONT COLOR */
+  color: #a8b720;
+}
+
+.ghostFC {
+  /* FC = FONT COLOR */
+  color: #6e5896;
+}
+
+.steelFC {
+  /* FC = FONT COLOR */
+  color: #b9b7cf;
+}
+
+.dragonFC {
+  /* FC = FONT COLOR */
+  color: #6f38f6;
+}
+
+.fairyFC {
+  /* FC = FONT COLOR */
+  color: #f9aec7;
+}
+
+/* HIDDEN ABILITY FONT COLOR */
+
+.true{
+  color: #ffd700;
+}
