@@ -21,7 +21,7 @@ Bem-vindo à Pokedex, um projeto web envolvente que oferece uma experiência int
 
 Divirta-se explorando o vasto mundo dos Pokémon através desta Pokedex web!
 
-## Coisas Pendentes
+## Funcionalidades Pendentes
 
 - **Pesquisa por Pokémon**: Adicionar um recurso de pesquisa para encontrar um Pokémon específico facilmente.
 - **Acesso Automático às Características**: Implementar a capacidade de acessar automaticamente as características de um Pokémon ao selecioná-lo.
